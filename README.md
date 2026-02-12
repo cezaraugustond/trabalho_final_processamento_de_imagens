@@ -75,4 +75,5 @@ Os círculos detectados são desenhados sobre a imagem original utilizando vetor
 ---
 
 *Projeto desenvolvido para a disciplina de Processamento Digital de Imagens.*
+
 *Prof. Dr. Leonardo Nogueira Matos*
