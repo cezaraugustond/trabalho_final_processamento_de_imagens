@@ -1,8 +1,8 @@
 # Trabalho Final de Processamento de Imagens
 
 # ALUNOS:
-## Cézar Augusto Nascimento Dias
-## Maxwell Alexandre Souza
+- Cézar Augusto Nascimento Dias
+- Maxwell Alexandre Souza
 
 # Detecção e Classificação de Bolas de Gude
 
