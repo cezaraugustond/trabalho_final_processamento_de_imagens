@@ -1,5 +1,9 @@
 # Trabalho Final de Processamento de Imagens
 
+# ALUNOS:
+## Cézar Augusto Nascimento Dias
+## Maxwell Alexandre Souza
+
 # Detecção e Classificação de Bolas de Gude
 
 Este projeto apresenta uma solução para a detecção, segmentação por cor (vermelho e branco) e contagem automática de bolas de gude em imagens, utilizando técnicas de Processamento Digital de Imagens.
