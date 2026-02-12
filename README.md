@@ -30,7 +30,6 @@ As principais técnicas aplicadas incluem:
 Para a validação do algoritmo, foram selecionadas **27 imagens** do conjunto de dados original, especificamente do diretório de testes. As imagens apresentam variações de tamanho e disposição dos objetos.
 
 [📁 Acessar Pasta de Imagens](./imagens)
-*(Certifique-se de que a pasta no seu repositório se chama "teste" ou ajuste este link)*
 
 ---
 
@@ -39,7 +38,6 @@ Para a validação do algoritmo, foram selecionadas **27 imagens** do conjunto d
 O desenvolvimento foi estruturado em um *pipeline* sequencial de processamento. Abaixo, detalhamos as etapas cruciais do algoritmo.
 
 [🚀 Acessar Código da Implementação](./codigo)
-*(Ajuste o link para apontar para seu arquivo .ipynb ou .py)*
 
 ### Etapas do Pipeline:
 
