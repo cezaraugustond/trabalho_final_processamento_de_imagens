@@ -20,7 +20,7 @@ As principais técnicas aplicadas incluem:
 3.  **Detecção de Bordas e Formas:** Uso do detector Canny e da **Circle Hough Transform (CHT)** para identificação paramétrica de círculos.
 
 ### 🔗 Links Úteis
-* **Vídeo de Demonstração:** [Clique aqui para assistir](INSIRA_SEU_LINK_AQUI)
+* **Vídeo de Apresentação:** [Clique aqui para assistir](INSIRA_SEU_LINK_AQUI)
 * **Dataset Original (Roboflow):** [Marble Images Challenge](https://universe.roboflow.com/zhe-fan/marble-images)
 
 ---
@@ -75,3 +75,4 @@ Os círculos detectados são desenhados sobre a imagem original utilizando vetor
 ---
 
 *Projeto desenvolvido para a disciplina de Processamento Digital de Imagens.*
+*Prof. Dr. Leonardo Nogueira Matos*
