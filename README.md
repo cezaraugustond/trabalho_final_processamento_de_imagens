@@ -2,6 +2,7 @@
 
 # ALUNO:
 - Cézar Augusto Nascimento Dias
+- Maxwell Alexandre Souza
 
 # Detecção e Classificação de Bolas de Gude
 
