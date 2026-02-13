@@ -1,6 +1,6 @@
 # Trabalho Final de Processamento de Imagens
 
-# ALUNOS:
+# ALUNO:
 - Cézar Augusto Nascimento Dias
 
 # Detecção e Classificação de Bolas de Gude
