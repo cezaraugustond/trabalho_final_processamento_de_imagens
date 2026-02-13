@@ -2,7 +2,6 @@
 
 # ALUNOS:
 - Cézar Augusto Nascimento Dias
-- Maxwell Alexandre Souza
 
 # Detecção e Classificação de Bolas de Gude
 
@@ -17,7 +16,7 @@ O objetivo principal deste desafio é identificar esferas (bolas de gude) dispos
 As principais técnicas aplicadas incluem:
 1.  **Espaços de Cores:** Conversão e manipulação nos espectros **RGB** e **HSV** para segmentação cromática robusta.
 2.  **Morfologia Matemática:** Utilização de operações de abertura para redução de ruído e separação de objetos.
-3.  **Detecção de Bordas e Formas:** Uso do detector Canny e da **Circle Hough Transform (CHT)** para identificação paramétrica de círculos.
+3.  **Detecção de Bordas e Formas:**  Uso do filtro de Sobel e da Circle Hough Transform (CHT) para identificação paramétrica de círculos.
 
 ### 🔗 Links Úteis
 * **Vídeo de Apresentação:** [Clique aqui para assistir](INSIRA_SEU_LINK_AQUI)
@@ -39,7 +38,7 @@ O desenvolvimento foi estruturado em um *pipeline* sequencial de processamento. 
 
 [🚀 Acessar Código da Implementação](./codigo)
 
-### Etapas do Pipeline:
+### Etapas:
 
 #### 1. Pré-processamento e Conversão de Cor (RGB $\to$ HSV)
 As imagens são convertidas do espaço RGB para HSV (*Hue, Saturation, Value*). O espaço HSV é preferível pois separa a informação de cor (Matiz) da intensidade luminosa (Valor), facilitando a segmentação em ambientes com sombras ou brilho variável.
@@ -52,8 +51,8 @@ Foram criadas máscaras binárias distintas para cada classe:
 #### 3. Tratamento Morfológico
 Para eliminar ruídos (pixels isolados) e suavizar as formas detectadas, aplicou-se a operação de **Abertura Binária** (*Binary Opening*) utilizando um elemento estruturante em forma de disco. Isso garante que apenas regiões com área significativa sejam processadas nas etapas seguintes.
 
-#### 4. Detecção de Bordas (Canny)
-Antes de detectar as formas, aplicamos o filtro de **Canny** nas máscaras tratadas. Isso gera mapas de bordas finos e precisos, que servem como entrada otimizada para a Transformada de Hough. Ajustes no parâmetro `sigma` foram cruciais para detectar esferas menores sem perder a definição.
+#### 4. Detecção de Bordas (Sobel)
+Antes de detectar as formas paramétricas, aplicamos o operador de **Sobel** nas máscaras morfológicas já tratadas. Como as nossas imagens nesta etapa já são binárias (fundo preto e esferas brancas sólidas), o filtro de Sobel atua calculando o gradiente espacial da imagem, o que destaca perfeitamente as áreas de transição. Isso gera mapas de contornos claros e definidos, que servem como a entrada exata e otimizada que a Transformada de Hough exige para funcionar.
 
 #### 5. Transformada de Hough Circular (CHT)
 O "coração" do projeto. Utilizamos a função `hough_circle` e `hough_circle_peaks` para encontrar padrões circulares.
