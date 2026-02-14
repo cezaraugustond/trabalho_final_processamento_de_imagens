@@ -24,7 +24,7 @@ Para explorar diferentes paradigmas de implementação, desenvolvemos **duas sol
 ---
 
 ## 📂 Acesso Rápido às Soluções
-| **Código** | [📁 Acessar Pasta](./solucao_1_manual) | [📁 Acessar Pasta](./solucao_2_skimage) |
+| **Código** | [📁 Acessar Pasta](./solucao_1) | [📁 Acessar Pasta](./solucao_2) |
 | **Vídeo** | [📺 Assistir no YouTube](https://youtu.be/nEgp7ryd_M4?si=ISw-WttdX29g7qhN) | [📺 Assistir no YouTube](INSIRA_SEU_LINK_AQUI) |
 
 ---
