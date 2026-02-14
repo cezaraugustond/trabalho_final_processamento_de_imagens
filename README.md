@@ -1,6 +1,6 @@
 # Trabalho Final de Processamento de Imagens
 
-# ALUNO:
+# ALUNOS:
 - Cézar Augusto Nascimento Dias
 - Maxwell Alexandre Souza
 
