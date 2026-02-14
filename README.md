@@ -1,4 +1,4 @@
-# Trabalho Final de Processamento de Imagens
+# Solução 2 - Trabalho Final de Processamento de Imagens
 
 # ALUNOS:
 - Cézar Augusto Nascimento Dias
@@ -20,7 +20,7 @@ As principais técnicas aplicadas incluem:
 3.  **Detecção de Bordas e Formas:**  Uso do filtro de Sobel e da Circle Hough Transform (CHT) para identificação paramétrica de círculos.
 
 ### 🔗 Links Úteis
-* **Vídeo de Apresentação:** [Clique aqui para assistir](INSIRA_SEU_LINK_AQUI)
+* **Vídeo de Apresentação:** [Clique aqui para assistir](https://youtu.be/4oBKUnbY8Pw)
 * **Dataset Original (Roboflow):** [Marble Images Challenge](https://universe.roboflow.com/zhe-fan/marble-images)
 
 ---
