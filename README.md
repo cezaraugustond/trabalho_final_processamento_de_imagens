@@ -6,13 +6,13 @@
 
 # Detecção e Classificação de Bolas de Gude
 
-Este projeto apresenta uma solução para a detecção, segmentação por cor (vermelho e branco) e contagem automática de bolas de gude em imagens, utilizando técnicas de Processamento Digital de Imagens.
+Este projeto apresenta uma solução para a detecção, segmentação por cor (vermelho e branco) e contagem automática de bolas de gude em imagens, utilizando técnicas de Processamento de Imagens.
 
 ---
 
 ## 📋 Descrição do Projeto
 
-O objetivo principal deste desafio é identificar esferas (bolas de gude) dispostas sobre uma superfície plana, classificá-las de acordo com sua coloração e quantificar os elementos presentes na cena. O projeto foi desenvolvido como aplicação prática de conceitos fundamentais de Processamento Digital de Imagens.
+O objetivo principal deste desafio é identificar esferas (bolas de gude) dispostas sobre uma superfície plana, classificá-las de acordo com sua coloração e quantificar os elementos presentes na cena. O projeto foi desenvolvido como aplicação prática de conceitos fundamentais de Processamento de Imagens.
 
 As principais técnicas aplicadas incluem:
 1.  **Espaços de Cores:** Conversão e manipulação nos espectros **RGB** e **HSV** para segmentação cromática robusta.
@@ -32,6 +32,16 @@ Para a validação do algoritmo, foram selecionadas **27 imagens** do conjunto d
 [📁 Acessar Pasta de Imagens](./imagens)
 
 ---
+
+### 🔄 Abordagens de Implementação
+
+Diferenças das soluções implementadas:
+
+1.  **Implementação com apenas NumPy:**
+    Focada na demonstração teórica e matemática. Nesta abordagem, todos os algoritmos — desde a criação de kernels morfológicos até a lógica de votação da Transformada de Hough — foram construídos manualmente utilizando apenas manipulação matricial com `numpy`, sem o uso de funções prontas de processamento de imagens.
+
+2.  **Implementação usando o Scikit-Image:**
+    Focada na eficiência. Nesta abordagem, utilizamos o ecossistema da biblioteca `skimage` para construir um pipeline otimizado. Foram aplicado filtro (`sobel`) e funções morfológicas (`binary_opening`) e de transformações (`hough_circle`) e (`hough_circle_peaks`) .
 
 ## 🛠️ Implementação e Metodologia
 
@@ -74,6 +84,6 @@ Os círculos detectados são desenhados sobre a imagem original utilizando vetor
 
 ---
 
-*Projeto desenvolvido para a disciplina de Processamento Digital de Imagens.*
+*Projeto desenvolvido para a disciplina de Processamento de Imagens.*
 
 *Prof. Dr. Leonardo Nogueira Matos*
