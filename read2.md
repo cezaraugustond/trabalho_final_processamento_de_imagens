@@ -19,7 +19,7 @@ O objetivo principal deste desafio é identificar esferas (bolas de gude) dispos
 Para explorar diferentes paradigmas de implementação, desenvolvemos **duas soluções distintas** para o mesmo problema:
 
 1.  **Solução 1 (Abordagem Low-Level):** Focada na construção manual dos algoritmos (criação de kernels, lógica matemática da Transformada de Hough e manipulação direta de matrizes NumPy).
-2.  **Solução 2 (Abordagem High-Level):** Focada na eficiência e robustez, utilizando o ecossistema `scikit-image` e filtros otimizados (Sobel/Hough) para um pipeline de produção.
+2.  **Solução 2 (Abordagem High-Level):** Focada na eficiência, utilizando o ecossistema `scikit-image` e filtros otimizados (Sobel/Hough) para um pipeline de produção.
 
 ---
 
